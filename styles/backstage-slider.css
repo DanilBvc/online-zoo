@@ -1,0 +1,201 @@
+.backstage__slider__items {
+    display: grid;
+    grid-template-columns: repeat(9, 366px);
+    grid-gap: 20px 30px;
+    padding-bottom: 85px;
+    position: relative;
+    right: 0px;
+    transition: 2s ease;
+}
+
+.backstage__slider__item {
+    border-radius: 5px;
+    border: 1px solid #FE9013;
+}
+
+.slider__item__decribtion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0px 14px 6px 14px;
+}
+.item__describtion-left {
+    font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+color: #000000;
+}
+.item__describtion__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.backstage__slider__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    overflow: hidden;
+    max-width: 1167px;
+}
+.backstage__slider {
+    position: relative;
+}
+.left__flower {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.right__flower {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.slider__btn {
+padding: 27px 23px;
+background:  linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 300px;
+}
+.right {
+    position: absolute;
+    top: 36%;
+    left: 138px;
+}
+.left {
+    position: absolute;
+    top: 36%;
+    right: 138px;
+}
+.backstage__container {
+    display: flex;
+    align-items: center;
+}
+.slider__btn:hover {
+    cursor: pointer;
+    background: #4B9200;
+}
+.img__wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+.img__wrapper-hover {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000045;
+    top: 0;
+    color: #fff;
+ 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img__wrapper:hover  .img__wrapper-hover{
+    
+    display: flex;
+}
+@media(max-width: 1200px) {
+    .backstage__slider__item {
+        max-width: 294px;
+    }
+    .backstage__slider__items {
+        grid-gap: 92px 30px;
+        grid-template-columns: repeat(18, 293px);
+        grid-auto-flow: column;
+        grid-template-rows: repeat(2, 421px);
+        
+    }
+    .left {
+        right: 351px;
+        top: 34%;
+    }
+    .right {
+        left: 353px;
+        top: 34%;
+        z-index: 9;
+    }
+    
+    .backstage__container {
+        display: flex;
+        justify-content: center;
+    }
+    .right__flower {
+        max-width: 241px;
+    }
+    .backstage__slider__wrapper {
+        padding-bottom: 142px;
+        max-width: 940px;
+    }
+}
+@media(max-width: 900px) {
+    .backstage__slider__item:nth-last-child(-n+2) {
+        display: none;
+    }
+    .backstage__slider__items {
+        grid-gap: 92px 30px;
+        grid-template-columns: repeat(9, 285px);
+        grid-template-rows: repeat(2, 427px);
+    }
+    .slider__item__decribtion {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 7px 0px 10px;
+    }
+    .left {
+        right: 242px;
+        top: 35%;
+    }
+    .right {
+        left: 242px;
+        top: 35%;
+    }
+    .backstage__slider__wrapper {
+        padding-bottom: 101px;
+        max-width: 601px;
+    }
+    .backstage__slider__items {
+       
+        padding-bottom: 51px;
+    }
+    .right__flower {
+        max-width: 174px;
+    }
+    .left__flower {
+        position: absolute;
+        left: -60px;
+        bottom: 0;
+    }
+}
+@media(max-width: 630px) {
+  
+    .backstage__slider__items {
+        grid-gap: 19px 30px;
+        grid-template-columns: repeat(1, 285px);
+    }
+    .slider__btn {display: none;}
+    .backstage__slider__items {
+        padding-bottom: 13px;
+    }
+    .backstage__slider__wrapper {
+        padding-bottom: 58px;
+    }
+    .right__flower {
+        max-width: 79px;
+    }
+    .left__flower {
+        position: absolute;
+        left: -12px;
+        bottom: 0;
+        max-width: 68px;
+    }
+}
+.backstage__img {
+    height: 365px;
+}

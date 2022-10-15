@@ -1,0 +1,136 @@
+.backstage {
+    
+    position: relative;
+}
+.flower {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.backstage__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 140px 0px 180px 0px;
+    justify-content: space-between;
+}
+.backstage__image {
+}
+.backstage__right {
+    max-width: 465px;
+}
+.bacstage__title {
+    font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+color: #333B41;
+}
+.backstage__paragraph-first {
+    font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #333B41;
+padding: 20px 0px 54px 0px;
+}
+.backstage__paragraph-second {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    padding-top: 34px;
+}
+.backstage__subtitle {
+    font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+color: #333B41;
+}
+@media(max-width:1200px) {
+    .flower {
+        display: none;
+    }
+    .backstage__wrapper {
+        padding: 97px 30px 168px 30px;
+    }
+    .backstage__image {
+        max-width: 455px;
+        min-height: 408px;
+        margin: 0 auto;
+        margin-bottom: -25px;
+        margin-left: 0px;
+    }
+    .backstage__right {
+        margin-left: 28px;
+    }
+    .slider__btn__choose {
+        margin: 0;
+    }
+}
+
+/* 640px */
+@media(max-width: 900px) {
+    .flower {
+        display: block;
+        
+        width: 128px;
+        height: 476px;
+    }
+    .backstage__paragraph-second {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+        padding-top: 20px;
+        max-width: 496px;
+    }
+    .backstage__paragraph-first {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #333B41;
+        padding: 20px 0px 30px 0px;
+        max-width: 454px;
+    }
+    .backstage__right {
+     margin-left: 0;
+    }
+    .backstage__wrapper {
+        padding: 60px 30px 81px 23px;
+    }
+    .backstage__right {
+         max-width: fit-content;
+    }
+}
+@media(max-width:630px) {
+    .flower {
+        display: block;
+        width: 30px;
+        height: 217px;
+        top: 36px;
+    }
+    .bacstage__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #333B41;
+    }
+    .backstage__wrapper {
+        padding: 102px 10px 34px 10px;
+    }
+    .backstage__paragraph-first {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #333B41;
+        padding: 12px 0px 21px 0px;
+        max-width: 454px;
+    }
+    .backstage__paragraph-second {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+        padding-top: 10px;
+        max-width: 401px;
+    }
+}

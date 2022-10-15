@@ -1,0 +1,151 @@
+.container {
+    max-width: 1161px;
+    margin: 0 auto;
+}
+.watch__wrapper {
+    background: url(../assets/anima-online/panda.svg) no-repeat center -80px;
+    background-size: cover ;
+    margin: 0 auto;
+}
+
+.watch-online__title {
+    margin: 71px 11px 60px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.button-watch {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+border: none;
+text-align: center;
+text-transform: uppercase;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+color: #FFFFFF;
+padding: 16px 1px 16px 5px;
+width: 298px;
+}
+.watch__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    padding: 12px 0px 100px 0px
+}
+.rectangle {
+    width: 465px;
+    height: 465px;
+    border-radius: 300px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    position: absolute;
+    z-index: 0;
+    right: 108px;
+}
+.watch__colored {
+    color: #FFEE2E;
+}
+.button-watch:hover {
+    cursor: pointer;
+    background: #E47209;
+}
+@media(max-width: 1200px) {
+    .watch__wrapper {
+        background: url(../assets/anima-online/panda.svg) no-repeat center ;
+
+    }
+    .rectangle {
+        width: 367px;
+        height: 367px;
+        right: 178px;
+    top: -10px;
+    }
+
+    .watch-online__title {
+        font-weight: 700;
+font-size: 85px;
+line-height: 75%;
+margin: 34px 93px 40px 0px;
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    }
+    .watch__container {
+        padding: 12px 0px 46px 0px;
+    }
+    .button-watch {
+        margin-right: 138px;
+    }
+    
+}
+@media(max-width: 900px) {
+    .rectangle {
+        width: 237.6px;
+        height: 237.6px;
+        right: 71px;
+        top: 10px;
+    }
+    .watch-online__title {
+        font-weight: 700;
+font-size: 54.2894px;
+line-height: 75%;
+margin: 38px 21px 47px 0px;
+
+text-align: center;
+text-transform: uppercase;
+    }
+    .watch__wrapper {
+        background: url(../assets/anima-online/panda.svg) no-repeat center;
+        background-size: cover;
+    }
+    .watch__container {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        padding: 12px 0px 39px 0px;
+        flex-direction: row-reverse;
+    }
+    .button-watch {
+        margin-right: 57px;
+    }
+}
+@media(max-width:630px) {
+    .rectangle {
+        width: 119.6px;
+        height: 119.6px;
+        right: 38px;
+        top: 24px;
+    }
+    .watch-online__title {
+        margin: 31px 11px 47px 0px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 75%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .header__button-watch {
+        position: absolute;
+        position: absolute;
+        right: -48px;
+        top: 208px;
+    }
+    .watch__container {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        padding: 6px 0px 0px 0px;
+        flex-direction: row-reverse;
+    }
+}

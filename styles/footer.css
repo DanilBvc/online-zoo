@@ -1,0 +1,268 @@
+.footer {
+    background-color: #111115;
+}
+.footer__wrapper {
+    padding: 15px 0px 50px 0px;
+}
+.footer__up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__subtitle {
+    color: #FFFFFF;
+}
+.footer__midle {
+    padding-top: 49px;
+    padding-bottom: 61px;
+}
+.footer__btn {
+    
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+.social-link__img {
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+    background: url(../assets/footer/Ellipse.svg) no-repeat center;
+}
+.facebook {
+    padding: 5px 9px;
+}
+.twitter {
+    padding: 6px 5px;
+}
+.insta {
+    padding: 5px;
+}
+.youtube {
+    padding: 6px 4px 7px 4px;
+}
+.social-link__text {
+    color: #fff;
+    padding-left: 12px;
+}
+.footer__link {
+    display: flex;
+    align-items: center;
+}
+.footer__down {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer__nav-baar {
+    margin-left: 120px;
+}
+.footer__nav-wrapper {
+    display: flex;
+    margin-left: 118px;
+}
+.footer__nav-li {
+}
+.footer__nav-link {
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+padding-left: 58px;
+}
+.li-first {
+    color: #FE9013;
+    padding: 0;
+}
+.footer__author p {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.footer__author p:last-child {
+    padding-top: 10px;
+}
+.footer__subscribe-input {
+    background-color: transparent;
+    border: 0.7px solid;
+    border-color: #FE9013;
+    padding: 9px 32px 7px 10px;
+}
+.footer__subscribe-input:hover {
+    border-color: #4B9200;
+}
+.footer__subscribe-btn {
+    color: #000000;
+    background-color: #fff;
+    border: 1px solid #333B41;
+    border-radius: 5px;
+    padding: 11px 39px 6px 39px;
+    margin-left: 7px;
+}
+.footer__subtitle {
+    font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+color: #FFFFFF;
+margin-bottom: 14px;
+}
+.footer__link:hover .social-link__img{
+    background: url(../assets/footer/Ellipse-green.svg) no-repeat center;
+}
+.social-link__item:hover .social-link__text{
+    color: #4B9200;
+}
+.footer__subscribe-btn:hover {
+    cursor: pointer;
+    border: 1px solid #4B9200;
+    color: #4B9200;
+}
+.footer__nav-link:hover {
+cursor: pointer;
+color: #FE9013;
+}
+.footer__logo {
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+}
+.footer__subscribe {
+    padding-top: 25px;
+}
+.donation__footer__nav-baar {
+    margin: 0;
+    margin-left: 60px;
+}
+@media(max-width: 1200px) {
+    .footer__wrapper {
+        padding: 15px 30px 50px 30px;
+    }
+    .footer__subscribe {
+        margin-right: 32px;
+    } 
+    .footer__btn {
+        padding: 16px 25px;
+    }
+    .footer__nav-link {
+        padding-left: 48px;
+    }
+    .footer__nav-baar {
+        margin-left: 46px;
+    }
+}
+
+/*640px */ 
+@media(max-width: 900px) {
+    .footer__subscribe {
+        display: none;
+    }
+    .footer__btn {
+        padding: 16px 49px;
+     
+    }
+    .social-link__text {
+        display: none;
+    }
+    .social-links {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .social-link__item {
+        margin-bottom: 16px;
+    }
+    .footer {
+        position: relative;
+    }
+    .footer__logo {
+       border: 1px solid #FFFFFF;
+       margin-left: -10px;
+    }
+    .header__logo-right__footer {
+        position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    }
+    .footer__btn {
+        margin-left: -10px;
+    }
+    .footer__nav-baar {
+        margin: 0;
+    }
+    .footer__wrapper {
+        padding: 15px 30px 11px 30px;
+    }
+    .footer__nav-link {
+        padding-left: 37px;
+    }
+    .footer__nav-wrapper{ 
+        margin-left: -46px;
+    }
+    .footer__down {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-top: 22px;
+    }
+    .footer__nav-baar .footer__nav-wrapper__index {
+        margin-left: -45px;
+    }
+    .footer__logo {
+        border: 1px solid #FFFFFF;
+        margin-left: -10px;
+        display: flex;
+        border: none;
+        flex-direction: column;
+    }
+    .footer__up {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width: 630px) {
+    .social-links__wrapper {
+        display: flex;
+    }
+    .social-links {
+        position: absolute;
+        right: 68px;
+        top: 73px;
+    }
+    .footer__down {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-top: 22px;
+        flex-direction: column-reverse;
+    }
+    .footer__nav-link {
+        padding-left: 35px;
+    }
+    .footer__wrapper {
+        padding: 20px 9px 20px 9px;
+    }
+    .footer__btn {
+        margin: 0;
+    }
+    .footer__logo {
+        border: 1px solid #FFFFFF;
+        margin-left: -10px;
+        display: flex;
+        border: none;
+        margin-left: -2px;
+    }
+    .footer__midle {
+        padding-top: 99px;
+        padding-bottom: 21px;
+    }
+    .footer__author{
+        margin-bottom: 30px;
+    }
+    .social-link__item {
+     
+        margin-left: 26px;
+    }
+}
